@@ -1,0 +1,174 @@
+body {
+  background-image: url(/assets/cannon_beach.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Abel', sans-serif;
+  font-size: 17px;
+  color: black;
+  margin:0;
+}
+
+a:link {
+  color: #F0FFFF;
+  text-decoration: none;
+}
+
+.header {
+  height: 75px;
+  width: 100%;
+  margin: 0px;
+  background-color: rgba(118,123,145,1);
+  position: fixed;
+}
+
+.header .container .navigation {
+  display: inline-block;
+  margin: 0;
+  padding: 10px, 10px, 0, 10px;
+  float: left;
+  width: 100%;
+  height: 75px;
+}
+
+.header .container .navigation h1 {
+  float:left;
+  display: inline-block;
+  margin: 15px;
+}
+
+.header .container .navigation li {
+  display: inline-block;
+  float:right;
+  font-size: 20px;
+}
+
+.header .container .navigation li a {
+  display: block;
+  padding: 10px 15px 0px 15px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.box h5 {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.bio {
+  display: inline-block;
+  float:left;
+  width: 95%;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+h2.bio {
+  color:#fff;
+  font-family: 'Satisfy', sans-serif;
+  font-size: 34px;
+  margin: 5px;
+  text-align: center;
+}
+p.bio {
+  color:#fff;
+}
+
+p.bio a {
+  color:#003366;
+  font-weight: bold;
+}
+
+p.work {
+  font:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+}
+
+p.work a {
+  color:#003366;
+}
+
+.mid {
+  float:left;
+  width: 41.6666667%;
+  background-color: rgba(118,123,145,0.8);
+  border: 3px solid #fff;
+  margin-top: 100px;
+}
+
+.box {
+  margin-top: 100px;
+  float: left;
+  max-width: 1100px;
+  width: 100%;
+  margin-left: 3%;
+  background-color: rgba(228, 228, 228, 0.9);
+  border: 1px solid #0B0B0B;
+  padding: 5px;
+}
+
+.box:first-child {
+  margin-left: 0;
+}
+
+.work:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.mid img {
+  float: left;
+  width:100%;
+  height: auto;
+  }
+
+img:hover{
+  opacity: 0.8;
+}
+
+ul.social{
+	display: block;
+	list-style-type: none;
+	text-align: center;
+}
+
+ul.social li{
+	font-size: 1em;
+	display: inline;
+	padding: 0 1%;
+}
+
+ul.social li a{
+	color: #e76c69;
+}
+
+ul.social li.github a:hover {
+  color: rgb(59,89,152);
+}
+
+ul.social li.twitter a:hover {
+  color: rgb(0,172,237);
+}
+
+ul.social li.instagram a:hover {
+  color: rgb(81,127,237);
+}
+
+ul.social li.code_builders a:hover {
+  color: rgb(0, 123,182);
+}
+
+ul.social li.linkedin a:hover {
+  color: rgb(0, 123,182);
+}
+
+ul.social li.email a:hover {
+  color: #fff;
+}
+
+ul.social li.site_links a:hover {
+  color: #3b5999;
+}
