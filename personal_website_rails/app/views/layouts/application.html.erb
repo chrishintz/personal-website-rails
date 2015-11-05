@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Chris | Hintz</title>
+  <title> <%= @page %> </title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -15,17 +16,20 @@
     <div class="container">
       <div class="navigation twelve columns">
         <h1>Chris Hintz</h1>
-          <ul class="social">
-            <li class="github hvr-float"><a href="https://github.com/chrishintz" target="_blank"><i class="fa fa-github fa-lg"></i></a></li>
-            <li class="twitter hvr-float"><a href="https://twitter.com/CIHintz" target="_blank"><i class="fa fa-twitter-square fa-lg"></i></a></li>
-            <li class="instagram hvr-float"><a href="http://instagram.com/chintz002" target="_blank"><i class="fa fa-instagram fa-lg"></i></a></li>
-            <li class="code_builders hvr-float"><a href="https://twitter.com/code_builders" target="_blank"><i class="fa fa-cog fa-lg"></i></a></li>
-            <li class="linkedin hvr-float"><a href="https://www.linkedin.com/pub/chris-hintz/36/43b/709" target="_blank"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
-            <li class="email hvr-float"><a href="mailto:chrishintz42@gmail.com"><i class="fa fa-envelope fa-md"></i></a></li>
-            <li class="site_links hvr-float"><a href="/projects.html">Projects</a></li>
-            <li class="site_links hvr-float"><a href="/blog">Blog</a></li>
-            <li class="site_links hvr-float"><a href="/">Home</a></li>
+      </div>
+    </div>
+  </div>
+
+  <div class="header">
+    <div class="container">
+      <div class="navigation twelve columns">
+        <h2>
+          <ul>
+            <li class="site_links"><a href="/">Home</a></li>
+            <li class="site_links"><a href="/blog">Blog</a></li>
+            <li class="site_links"><a href="/projects.html">Projects</a></li>
           </ul>
+        </h2>
       </div>
     </div>
   </div>
