@@ -3,7 +3,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   font-family: 'Lato', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: white;
   margin:0;
 }
@@ -14,7 +14,7 @@ a:link {
 }
 
 .header {
-  height: 50px;
+  height: 55px;
   width: 100%;
   margin: 0px;
   background-color: rgba(118,123,145,0.9);
@@ -57,7 +57,7 @@ a:link {
 
 .container {
   margin: 0 auto;
-  width: 1100px;
+  width: 1000px;
 }
 
 .box h5 {
@@ -71,6 +71,10 @@ a:link {
   width: 100%;
   margin-left: 1%;
   margin-right: 1%;
+}
+
+.blog p a {
+  color: #F27979;
 }
 
 h2.bio {
@@ -87,7 +91,7 @@ p.bio {
 }
 
 p.bio a {
-  color:#003366;
+  color:#F27979;
   font-weight: bold;
 }
 
@@ -97,7 +101,7 @@ p.work {
 }
 
 p.work a {
-  color:#003366;
+  color:#F27979;
 }
 
 .mid {
@@ -109,8 +113,7 @@ p.work a {
 
 .box {
   margin-top: 1%;
-  float: left;
-  max-width: 1100px;
+  max-width: 1000px;
   width: 100%;
   margin-left: 3%;
   background-color: rgba(118,123,145,0.9);
@@ -120,14 +123,17 @@ p.work a {
 
 .work .box p {
   margin: 1%;
+  padding: 5px 20px;
 }
 
 .work .box h5 {
   margin: 1%;
+  padding: 5px 20px;
 }
 
 .work .box h1 {
   margin: 1%;
+  padding: 5px 20px;
 }
 
 .box:first-child {
@@ -138,6 +144,38 @@ p.work a {
   content: "";
   clear: both;
   display: block;
+}
+
+.image {
+  position: relative;
+  width: 100%;
+}
+
+.image h1 {
+  position: absolute;
+  left: 0;
+  top: 10%;
+  width: 100%;
+}
+
+.image h1 span {
+   color: white;
+   font: bold 45px Helvetica, Sans-Serif;
+   background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+   padding: 10px;
+   line-height: 1.6;
+   margin-right: 22px;
+}
+
+.image h1 span:first-child {
+  margin-left:0;
+}
+
+.work .box .image img {
+  width: 100%;
+  position: relative;
+  min-height: 200px;
 }
 
 .mid img {
@@ -207,7 +245,7 @@ ul li.site_links a:hover {
 }
 
 .row:first-child {
-  margin-top: 2%;
+  margin-top: 1%;
 }
 
 .row p {
